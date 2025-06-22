@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:onClick="StudentRegistration">
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Student\n registration"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:onClick="TimeTable">
+
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Time \nTable"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <LinearLayout
+            android:onClick="Exams"
+
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Exams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="Attendance"
+
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Attendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <LinearLayout
+            android:onClick="Doctor"
+
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Insert \nDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="InsertSubject"
+
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Insert\nDoctors'\nsubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <LinearLayout
+            android:onClick="AddSubjects"
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Insert\nSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="Results"
+
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+
+        <LinearLayout
+            android:onClick="AddAdmin"
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Add\n Admin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:onClick="TimeTable"
+            android:layout_width="205dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Time \nTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

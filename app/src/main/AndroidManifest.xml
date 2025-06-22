@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reham.modernacademystudentaffair">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.reham.modernacademystudentaffair.AddUserActivity"></activity>
+        <activity
+            android:name="com.reham.modernacademystudentaffair.ResultsActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity" />
+        <activity android:name="com.reham.modernacademystudentaffair.AddSubjectActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.LoginActivity" />
+        <activity android:name="com.reham.modernacademystudentaffair.InsertDoctorSubjectActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.InsertDoctorActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.AttendanceActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.MainActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.ExamsActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.TimeTableActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.RegistrationActivity"
+            android:parentActivityName="com.reham.modernacademystudentaffair.MainActivity"/>
+        <activity android:name="com.reham.modernacademystudentaffair.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

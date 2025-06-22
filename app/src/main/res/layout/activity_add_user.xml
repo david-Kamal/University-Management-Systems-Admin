@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserActivity">
+
+    <TextView
+        android:text="Admin Name"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:hint="Admin Name"
+        android:id="@+id/subjectEdittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:text="User Name"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:hint="Admin's username"
+        android:id="@+id/dateEdittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+
+    <TextView
+        android:text="Password"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+    <EditText
+        android:inputType="time"
+        android:hint="Admin's password"
+        android:id="@+id/timeEdittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="ADD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
