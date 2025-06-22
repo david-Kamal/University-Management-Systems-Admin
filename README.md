@@ -55,6 +55,4 @@ This repository contains both the native Android admin app and the PHP backend f
 
 ---
 
-## License
 
-[MIT](LICENSE)
